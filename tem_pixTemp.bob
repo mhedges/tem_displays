@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <background_color>
+    <color name="Read_Background" red="240" green="240" blue="240">
+    </color>
+  </background_color>
+  <widget type="group" version="2.0.0">
+    <name>PIB0</name>
+    <y>40</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_4</name>
+      <pv_name>sim://sine(25, 32, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_1</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB0</name>
+    <text>PIB0:PIX0</text>
+    <y>20</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB0</name>
+    <x>130</x>
+    <y>40</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_5</name>
+      <pv_name>sim://sine(24, 35, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_2</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB0</name>
+    <text>PIB0:PIX1</text>
+    <x>130</x>
+    <y>20</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB0</name>
+    <y>207</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_6</name>
+      <pv_name>sim://sine(25, 34, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_3</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB0</name>
+    <text>PIB1:PIX0</text>
+    <y>187</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB0</name>
+    <x>130</x>
+    <y>207</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_7</name>
+      <pv_name>sim://sine(22, 38, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_4</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB0</name>
+    <text>PIB1:PIX1</text>
+    <x>130</x>
+    <y>187</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB1</name>
+    <x>250</x>
+    <y>40</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_8</name>
+      <pv_name>sim://sine(26, 35, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB1</name>
+    <text>PIB0:PIX2</text>
+    <x>250</x>
+    <y>20</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB1</name>
+    <x>380</x>
+    <y>40</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_9</name>
+      <pv_name>sim://sine(25, 37, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB1</name>
+    <text>PIB0:PIX3</text>
+    <x>380</x>
+    <y>20</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB1</name>
+    <x>250</x>
+    <y>207</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_10</name>
+      <pv_name>sim://sine(22, 35, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_7</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB1</name>
+    <text>PIB1:PIX2</text>
+    <x>250</x>
+    <y>187</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>PIB1</name>
+    <x>380</x>
+    <y>207</y>
+    <width>90</width>
+    <height>140</height>
+    <style>3</style>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="thermometer" version="2.0.0">
+      <name>Thermometer_11</name>
+      <pv_name>sim://sine(25, 40, 5)</pv_name>
+      <x>2</x>
+      <y>8</y>
+      <width>88</width>
+      <height>110</height>
+      <fill_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </fill_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_8</name>
+      <pv_name>sim://sine(25, 35, 5)</pv_name>
+      <x>26</x>
+      <y>118</y>
+      <width>40</width>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>PIB1</name>
+    <text>PIB1:PIX3</text>
+    <x>380</x>
+    <y>187</y>
+    <width>90</width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+</display>

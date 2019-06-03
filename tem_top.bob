@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>LED (Multi State)</name>
+    <pv_name>sim://sine(0,3,3,3)</pv_name>
+    <width>300</width>
+    <height>160</height>
+    <font>
+      <font family="PakTypeNaqsh" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <square>true</square>
+    <actions>
+    </actions>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <states>
+      <state>
+        <value>0</value>
+        <label>TEM OFF</label>
+        <color>
+          <color name="Off" red="60" green="100" blue="60">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>1</value>
+        <label>TEM OK</label>
+        <color>
+          <color name="On" red="0" green="255" blue="0">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>2</value>
+        <label>TEM WARNING!</label>
+        <color>
+          <color name="MINOR" red="255" green="128" blue="0">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>3</value>
+        <label>State 4</label>
+        <color>
+          <color name="MAJOR" red="255" green="0" blue="0">
+          </color>
+        </color>
+      </state>
+    </states>
+    <fallback_label>Disconnected</fallback_label>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <file>tem_summary.bob</file>
+        <target>tab</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Open TEM Summary</text>
+    <x>60</x>
+    <y>160</y>
+    <width>170</width>
+    <confirm_message>Are you sure you want to do this?</confirm_message>
+  </widget>
+</display>
