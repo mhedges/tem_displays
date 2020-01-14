@@ -63,6 +63,7 @@
     <x>60</x>
     <y>160</y>
     <width>170</width>
+    <tooltip>$(actions)</tooltip>
     <confirm_message>Are you sure you want to do this?</confirm_message>
   </widget>
 </display>
