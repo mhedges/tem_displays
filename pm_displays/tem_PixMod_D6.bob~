@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>img/extmon_pm_dwn1.png</file>
+    <y>56</y>
+    <width>410</width>
+    <height>590</height>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button</name>
+    <pv_name>TEM:PIX:CH11:TCA2464A:LV_ENABLE</pv_name>
+    <label>LV</label>
+    <x>312</x>
+    <y>270</y>
+    <width>60</width>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button_1</name>
+    <pv_name>TEM:PIX:CH11:TCA2464A:BIAS_ENABLE</pv_name>
+    <label>HV</label>
+    <x>310</x>
+    <y>328</y>
+    <width>67</width>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_29</name>
+    <pv_name>TEM:PIX:CH11:TCA2464A:LV_ENABLED</pv_name>
+    <x>394</x>
+    <y>265</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>TEM:PIX:CH11:DAC8571:BIAS_VOLTAGE</pv_name>
+    <x>391</x>
+    <y>363</y>
+    <width>44</width>
+    <height>35</height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture_1</name>
+    <file>img/extmon_pm_dwn2.png</file>
+    <x>541</x>
+    <y>68</y>
+    <width>410</width>
+    <height>590</height>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button_2</name>
+    <pv_name>TEM:PIX:CH12:TCA2464A:LV_ENABLE</pv_name>
+    <label>LV</label>
+    <x>476</x>
+    <y>229</y>
+    <width>60</width>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_32</name>
+    <pv_name>TEM:PIX:CH12:TCA2464A:LV_ENABLED</pv_name>
+    <x>548</x>
+    <y>225</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_1</name>
+    <x>1010</x>
+    <y>256</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>Module D5</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>210</width>
+    <height>70</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <class>SECTION</class>
+    <text>Downstream</text>
+    <x>715</x>
+    <y>56</y>
+    <width>90</width>
+    <height>23</height>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <class>SECTION</class>
+    <text>Upstream</text>
+    <x>180</x>
+    <y>56</y>
+    <width>70</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button_4</name>
+    <pv_name>TEM:PIX:CH13:TCA2464A:LV_ENABLE</pv_name>
+    <label>LV</label>
+    <x>476</x>
+    <y>307</y>
+    <width>60</width>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button_5</name>
+    <pv_name>TEM:PIX:CH13:TCA2464A:BIAS_ENABLE</pv_name>
+    <label>HV</label>
+    <x>474</x>
+    <y>369</y>
+    <width>63</width>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_33</name>
+    <pv_name>TEM:PIX:CH13:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>549</x>
+    <y>364</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_34</name>
+    <pv_name>TEM:PIX:CH13:TCA2464A:LV_ENABLED</pv_name>
+    <x>548</x>
+    <y>303</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_2</name>
+    <pv_name>TEM:PIX:CH13:DAC8571:BIAS_VOLTAGE</pv_name>
+    <x>545</x>
+    <y>406</y>
+    <width>47</width>
+    <height>35</height>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button_6</name>
+    <pv_name>TEM:PIX:CH12:TCA2464A:BIAS_ENABLE</pv_name>
+    <label>HV</label>
+    <x>474</x>
+    <y>138</y>
+    <width>63</width>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_35</name>
+    <pv_name>TEM:PIX:CH12:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>549</x>
+    <y>133</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>TEM:PIX:CH12:DAC8571:BIAS_VOLTAGE</pv_name>
+    <x>546</x>
+    <y>173</y>
+    <width>47</width>
+    <height>35</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_36</name>
+    <pv_name>TEM:PIX:CH11:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>394</x>
+    <y>323</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+</display>

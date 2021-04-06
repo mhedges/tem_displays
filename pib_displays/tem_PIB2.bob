@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>PIB 002: EUI64 = </text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>202</width>
+    <height>30</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture_1</name>
+    <file>pib.png</file>
+    <y>30</y>
+    <width>1040</width>
+    <height>730</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>TEM:PIB2:LTC2945:VCC3V3_V</pv_name>
+    <x>64</x>
+    <y>121</y>
+    <width>68</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_9</name>
+    <pv_name>TEM:PIB2:LTC2945:VCC3V3_I</pv_name>
+    <x>64</x>
+    <y>140</y>
+    <width>68</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_10</name>
+    <pv_name>TEM:PIB2:LTC2945:VCC5_V</pv_name>
+    <x>154</x>
+    <y>121</y>
+    <width>68</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_11</name>
+    <pv_name>TEM:PIB2:LTC2945:VCC5_I</pv_name>
+    <x>154</x>
+    <y>140</y>
+    <width>68</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_12</name>
+    <pv_name>TEM:PIB2:LTC2945:VCC12_V</pv_name>
+    <x>244</x>
+    <y>121</y>
+    <width>68</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_13</name>
+    <pv_name>TEM:PIB2:LTC2945:VCC12_I</pv_name>
+    <x>244</x>
+    <y>140</y>
+    <width>68</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_14</name>
+    <pv_name>TEM:PIB2:CH0:LTC2945:VCC_I</pv_name>
+    <x>411</x>
+    <y>388</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <pv_name>TEM:PIB2:CH0:LTC2945:VCC_V</pv_name>
+    <x>411</x>
+    <y>369</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_18</name>
+    <pv_name>TEM:PIB2:CH3:LTC2945:VCC_V</pv_name>
+    <x>625</x>
+    <y>369</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_19</name>
+    <pv_name>TEM:PIB2:CH3:LTC2945:VCC_I</pv_name>
+    <x>625</x>
+    <y>388</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_20</name>
+    <pv_name>TEM:PIB2:CH4:LTC2945:VCC_V</pv_name>
+    <x>695</x>
+    <y>369</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_21</name>
+    <pv_name>TEM:PIB2:CH4:LTC2945:VCC_I</pv_name>
+    <x>695</x>
+    <y>388</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_22</name>
+    <pv_name>TEM:PIB2:CH5:LTC2945:VCC_V</pv_name>
+    <x>768</x>
+    <y>369</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_23</name>
+    <pv_name>TEM:PIB2:CH5:LTC2945:VCC_I</pv_name>
+    <x>768</x>
+    <y>388</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_24</name>
+    <pv_name>TEM:PIB2:CH2:LTC2945:VCC_V</pv_name>
+    <x>554</x>
+    <y>369</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_25</name>
+    <pv_name>TEM:PIB2:CH2:LTC2945:VCC_I</pv_name>
+    <x>554</x>
+    <y>388</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_26</name>
+    <pv_name>TEM:PIB2:CH1:LTC2945:VCC_V</pv_name>
+    <x>483</x>
+    <y>369</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_27</name>
+    <pv_name>TEM:PIB2:CH1:LTC2945:VCC_I</pv_name>
+    <x>483</x>
+    <y>388</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_31</name>
+    <pv_name>TEM:PIX:24AA0256E64:EUI64</pv_name>
+    <x>185</x>
+    <y>2</y>
+    <width>165</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <format>6</format>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_33</name>
+    <pv_name>TEM:PIB2:ADT7470:TMP4:TEMP</pv_name>
+    <x>625</x>
+    <y>500</y>
+    <width>35</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_16</name>
+    <pv_name>TEM:PIB2:CH0:LTC2945:VBIAS</pv_name>
+    <x>411</x>
+    <y>261</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_17</name>
+    <pv_name>TEM:PIB2:CH5:LTC2945:VBIAS</pv_name>
+    <x>768</x>
+    <y>261</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser</name>
+    <x>49</x>
+    <y>771</y>
+    <width>776</width>
+    <height>640</height>
+    <show_toolbar>true</show_toolbar>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_28</name>
+    <pv_name>TEM:PIB2:CH0:ADS1015:IBIAS</pv_name>
+    <x>411</x>
+    <y>280</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_29</name>
+    <pv_name>TEM:PIB2:CH5:ADS1015:IBIAS</pv_name>
+    <x>768</x>
+    <y>280</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:LV_ENABLE</pv_name>
+    <x>469</x>
+    <y>615</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </off_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>469</x>
+    <y>600</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_12</name>
+    <pv_name>TEM:PIX:CH1:TCA2464A:LV_ENABLE</pv_name>
+    <x>542</x>
+    <y>615</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </off_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_13</name>
+    <pv_name>TEM:PIX:CH1:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>542</x>
+    <y>600</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_14</name>
+    <pv_name>TEM:PIX:CH2:TCA2464A:LV_ENABLE</pv_name>
+    <x>614</x>
+    <y>615</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </off_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_15</name>
+    <pv_name>TEM:PIX:CH2:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>614</x>
+    <y>600</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_16</name>
+    <pv_name>TEM:PIX:CH3:TCA2464A:LV_ENABLE</pv_name>
+    <x>686</x>
+    <y>615</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </off_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_17</name>
+    <pv_name>TEM:PIX:CH3:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>686</x>
+    <y>600</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_18</name>
+    <pv_name>TEM:PIX:CH4:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>757</x>
+    <y>600</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_19</name>
+    <pv_name>TEM:PIX:CH4:TCA2464A:LV_ENABLE</pv_name>
+    <x>757</x>
+    <y>615</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </off_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_20</name>
+    <pv_name>TEM:PIX:CH5:TCA2464A:LV_ENABLE</pv_name>
+    <x>830</x>
+    <y>615</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </off_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_21</name>
+    <pv_name>TEM:PIX:CH5:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>830</x>
+    <y>600</y>
+    <width>12</width>
+    <height>10</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_36</name>
+    <pv_name>TEM:PIB2:ADT7470:TMP2:TEMP</pv_name>
+    <x>960</x>
+    <y>272</y>
+    <width>35</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_38</name>
+    <pv_name>TEM:PIB2:ADT7470:TMP1:TEMP</pv_name>
+    <x>590</x>
+    <y>70</y>
+    <width>35</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_39</name>
+    <pv_name>TEM:PIB2:ADT7470:TMP4:TEMP</pv_name>
+    <x>219</x>
+    <y>537</y>
+    <width>35</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_30</name>
+    <pv_name>TEM:PIB2:CH1:LTC2945:VBIAS</pv_name>
+    <x>483</x>
+    <y>261</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_32</name>
+    <pv_name>TEM:PIB2:CH2:LTC2945:VBIAS</pv_name>
+    <x>553</x>
+    <y>261</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_34</name>
+    <pv_name>TEM:PIB2:CH3:LTC2945:VBIAS</pv_name>
+    <x>625</x>
+    <y>261</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_35</name>
+    <pv_name>TEM:PIB2:CH4:LTC2945:VBIAS</pv_name>
+    <x>696</x>
+    <y>261</y>
+    <width>60</width>
+    <height>19</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

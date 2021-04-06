@@ -4,7 +4,7 @@
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <class>TITLE</class>
-    <text>TEM Summary</text>
+    <text>Extinction Monitor Control Panel</text>
     <x use_class="true">0</x>
     <y use_class="true">0</y>
     <width>550</width>
@@ -23,37 +23,23 @@
     <name>Navigation Tabs</name>
     <tabs>
       <tab>
-        <name>Module Voltages</name>
-        <file>tem_pixVoltages.bob</file>
+        <name>Pixel Modules</name>
+        <file>pm_displays/tem_PixMod_summary.bob</file>
         <macros>
         </macros>
         <group_name></group_name>
       </tab>
       <tab>
-        <name>Module Temps</name>
-        <file>tem_pixTemp.bob</file>
-        <macros>
-        </macros>
-        <group_name></group_name>
-      </tab>
-      <tab>
-        <name>PIB Upstr</name>
-        <file></file>
-        <macros>
-        </macros>
-        <group_name></group_name>
-      </tab>
-      <tab>
-        <name>PIB Dwnstr</name>
-        <file></file>
+        <name>Interf. Boards</name>
+        <file>pib_displays/tem_PIB_summary.bob</file>
         <macros>
         </macros>
         <group_name></group_name>
       </tab>
     </tabs>
     <y>90</y>
-    <width>600</width>
-    <height>510</height>
+    <width>1070</width>
+    <height>1420</height>
     <direction>0</direction>
     <tab_spacing>28</tab_spacing>
   </widget>
@@ -61,7 +47,7 @@
     <name>LED (Multi State)</name>
     <pv_name>sim://sine(1,4,3,3.2)</pv_name>
     <x>36</x>
-    <y>60</y>
+    <y>58</y>
     <width>30</width>
     <height>30</height>
     <states>
@@ -104,92 +90,6 @@
     <name>LED (Multi State)_1</name>
     <pv_name>sim://sine(1,4,3,3.7)</pv_name>
     <x>163</x>
-    <y>58</y>
-    <width>30</width>
-    <height>30</height>
-    <states>
-      <state>
-        <value>0</value>
-        <label>OFF</label>
-        <color>
-          <color name="Off" red="60" green="100" blue="60">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label>OK</label>
-        <color>
-          <color name="On" red="0" green="255" blue="0">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label>!</label>
-        <color>
-          <color name="MINOR" red="255" green="128" blue="0">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>3</value>
-        <label>ERR</label>
-        <color>
-          <color name="MAJOR" red="255" green="0" blue="0">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label></fallback_label>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>LED (Multi State)_2</name>
-    <pv_name>sim://sine(1,4,3,3.5)</pv_name>
-    <x>290</x>
-    <y>58</y>
-    <width>30</width>
-    <height>30</height>
-    <states>
-      <state>
-        <value>0</value>
-        <label>OFF</label>
-        <color>
-          <color name="Off" red="60" green="100" blue="60">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label>OK</label>
-        <color>
-          <color name="On" red="0" green="255" blue="0">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label>!</label>
-        <color>
-          <color name="MINOR" red="255" green="128" blue="0">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>3</value>
-        <label>ERR</label>
-        <color>
-          <color name="MAJOR" red="255" green="0" blue="0">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label></fallback_label>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>LED (Multi State)_5</name>
-    <pv_name>sim://sine(1,4,3,3)</pv_name>
-    <x>420</x>
     <y>58</y>
     <width>30</width>
     <height>30</height>

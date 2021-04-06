@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="image" version="2.0.0">
+    <name>Image</name>
+    <x>360</x>
+    <y>112</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>img/extmon.png</file>
+    <y>82</y>
+    <width>820</width>
+    <height>590</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:LV_ENABLED</pv_name>
+    <x>60</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_2</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>60</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>LV</text>
+    <x>10</x>
+    <y>52</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>HV</text>
+    <x>10</x>
+    <y>102</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <x>530</x>
+    <y>972</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>TEM:PIX:CH2:TCA2464A:LV_ENABLED</pv_name>
+    <x>120</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_4</name>
+    <pv_name>TEM:PIX:CH2:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>120</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_8</name>
+    <pv_name>TEM:PIX:CH4:TCA2464A:LV_ENABLED</pv_name>
+    <x>180</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_9</name>
+    <pv_name>TEM:PIX:CH4:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>180</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_10</name>
+    <pv_name>TEM:PIX:CH6:TCA2464A:LV_ENABLED</pv_name>
+    <x>240</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_11</name>
+    <pv_name>TEM:PIX:CH6:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>240</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_12</name>
+    <pv_name>TEM:PIX:CH8:TCA2464A:LV_ENABLED</pv_name>
+    <x>550</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_13</name>
+    <pv_name>TEM:PIX:CH8:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>550</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_14</name>
+    <pv_name>TEM:PIX:CH11:TCA2464A:LV_ENABLED</pv_name>
+    <x>610</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_15</name>
+    <pv_name>TEM:PIX:CH11:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>610</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_16</name>
+    <pv_name>TEM:PIX:CH14:TCA2464A:LV_ENABLED</pv_name>
+    <x>670</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_17</name>
+    <pv_name>TEM:PIX:CH14:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>670</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_18</name>
+    <pv_name>TEM:PIX:CH17:TCA2464A:LV_ENABLED</pv_name>
+    <x>730</x>
+    <y>42</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_19</name>
+    <pv_name>TEM:PIX:CH17:TCA2464A:BIAS_ENABLED</pv_name>
+    <x>730</x>
+    <y>92</y>
+    <width>40</width>
+    <height>40</height>
+    <off_label>OFF</off_label>
+    <on_label>ON</on_label>
+  </widget>
+  <widget type="navtabs" version="2.0.0">
+    <name>Navigation Tabs</name>
+    <tabs>
+      <tab>
+        <name>U0</name>
+        <file>tem_PixMod_U0.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>U1</name>
+        <file>tem_PixMod_U1.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>U2</name>
+        <file>tem_PixMod_U2.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>U3</name>
+        <file>tem_PixMod_U3.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>D4</name>
+        <file>tem_PixMod_D4.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>D5</name>
+        <file>tem_PixMod_D5.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>D6</name>
+        <file>tem_PixMod_D6.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>D7</name>
+        <file>tem_PixMod_D7.bob</file>
+        <macros>
+        </macros>
+        <group_name></group_name>
+      </tab>
+    </tabs>
+    <x>3</x>
+    <y>552</y>
+    <width>1027</width>
+    <height>688</height>
+    <direction>0</direction>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_5</name>
+    <pv_name>TEM:PIB2:CH0:SHT25:RH</pv_name>
+    <x>60</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>T/RH</text>
+    <y>152</y>
+    <width>50</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_6</name>
+    <pv_name>TEM:PIB2:CH2:SHT25:RH</pv_name>
+    <x>120</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_20</name>
+    <pv_name>TEM:PIB2:CH4:SHT25:RH</pv_name>
+    <x>180</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_21</name>
+    <pv_name>TEM:PIB2:CH6:SHT25:RH</pv_name>
+    <x>240</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_22</name>
+    <pv_name>TEM:PIB2:CH8:SHT25:RH</pv_name>
+    <x>550</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_23</name>
+    <pv_name>TEM:PIB2:CH11:SHT25:RH</pv_name>
+    <x>610</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_24</name>
+    <pv_name>TEM:PIB2:CH14:SHT25:RH</pv_name>
+    <x>670</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>LED_25</name>
+    <pv_name>TEM:PIB2:CH17:SHT25:RH</pv_name>
+    <x>730</x>
+    <y>142</y>
+    <width>40</width>
+    <height>40</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>U0</text>
+    <x>69</x>
+    <y>10</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>D7</text>
+    <x>739</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>D6</text>
+    <x>679</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>D5</text>
+    <x>619</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_10</name>
+    <text>D4</text>
+    <x>559</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>U3</text>
+    <x>249</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>U2</text>
+    <x>189</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>U1</text>
+    <x>129</x>
+    <y>11</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>LED (Multi State)</name>
+    <x>1740</x>
+    <y>290</y>
+    <width>0</width>
+    <height>0</height>
+    <states>
+      <state>
+        <value>0</value>
+        <label>State 1</label>
+        <color>
+          <color name="Off" red="60" green="100" blue="60">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>1</value>
+        <label>State 2</label>
+        <color>
+          <color name="On" red="0" green="255" blue="0">
+          </color>
+        </color>
+      </state>
+    </states>
+  </widget>
+</display>

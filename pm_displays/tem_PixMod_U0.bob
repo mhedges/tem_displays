@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>img/extmon_pm_up1.png</file>
+    <x>30</x>
+    <y>56</y>
+    <width>410</width>
+    <height>590</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Slide Button_1</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:BIAS_ENABLE</pv_name>
+    <bit>1</bit>
+    <x>56</x>
+    <y>294</y>
+    <width>63</width>
+    <off_label>HV</off_label>
+    <off_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </off_color>
+    <on_label>HV</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>TEM:PIX:CH0:DAC8571:BIAS_VOLTAGE</pv_name>
+    <y>292</y>
+    <width>47</width>
+    <height>35</height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture_1</name>
+    <file>img/extmon_pm_up2.png</file>
+    <x>497</x>
+    <y>56</y>
+    <width>410</width>
+    <height>590</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Slide Button_3</name>
+    <pv_name>TEM:PIX:CH1:TCA2464A:BIAS_ENABLE</pv_name>
+    <x>550</x>
+    <y>190</y>
+    <width>63</width>
+    <off_label>HV</off_label>
+    <off_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_label>HV</on_label>
+    <on_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>TEM:PIX:CH1:DAC8571:BIAS_VOLTAGE</pv_name>
+    <x>497</x>
+    <y>188</y>
+    <width>47</width>
+    <height>35</height>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_1</name>
+    <x>1010</x>
+    <y>256</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>Module U0</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>210</width>
+    <height>70</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <class>SECTION</class>
+    <text>Downstream</text>
+    <x>680</x>
+    <y>56</y>
+    <width>90</width>
+    <height>23</height>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <class>SECTION</class>
+    <text>Upstream</text>
+    <x>210</x>
+    <y>56</y>
+    <width>70</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Slide Button_2</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:LV_ENABLE</pv_name>
+    <bit>1</bit>
+    <x>56</x>
+    <y>239</y>
+    <width>63</width>
+    <off_label>LV</off_label>
+    <off_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </off_color>
+    <on_label>LV</on_label>
+    <on_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Slide Button_4</name>
+    <pv_name>TEM:PIX:CH0:TCA2464A:BIAS_ENABLE</pv_name>
+    <bit>1</bit>
+    <x>549</x>
+    <y>247</y>
+    <width>63</width>
+    <off_label>LV</off_label>
+    <off_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </off_color>
+    <on_label>LV</on_label>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+  </widget>
+</display>
